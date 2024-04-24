@@ -45,7 +45,7 @@ a:checked {
 
 
 .abt {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 h1 {
@@ -132,6 +132,7 @@ section1 {
     }
 
 }
+
 
 @media screen and (max-width:870px) {
 
