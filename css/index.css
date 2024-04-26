@@ -14,12 +14,16 @@ body {
     background-image: url(../img/vidar-nordli-mathisen-aE6F7CmHnx0-unsplash.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    border: 10px solid blue;
+    border-top: none;
 }
 
 nav {
     background-color: black;
     min-height: 5vh;
     padding: 10px;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -66,6 +70,7 @@ h1 {
 main {
     max-width: 95%;
     min-height: 80vh;
+    margin: 0 auto;
 }
 
 footer {
@@ -103,6 +108,7 @@ section1 {
     max-width: 90%;
     margin: 20px;
     height: 80%;
+    text-align: center;
 
 }
 
@@ -121,14 +127,14 @@ section1 {
     display: inline-block;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
 
     .box1,
     .box2,
     .box3,
     h1,
     nav {
-        width: 70%;
+        width: 100%;
     }
 
 }
@@ -138,7 +144,7 @@ section1 {
 
     h1,
     nav {
-        width: 70%;
+        width: 95%;
     }
 
 }
